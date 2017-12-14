@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import Navbar from "./navbar";
 import Jumbotron from "./jumbotron";
 import Menu from "./menu";
+import Contact from "./contact";
 import "./App.css";
 
 var seafoodItems = [
@@ -43,6 +44,7 @@ class App extends Component {
 				<Navbar />
 				<Jumbotron />
 				<Menu seafoodItems={seafoodItems} />
+				<Contact />
 			</div>
 		);
 	}

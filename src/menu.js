@@ -7,7 +7,7 @@ const Menu = ({ seafoodItems }) => {
 	});
 
 	return (
-		<div className="Menu container">
+		<div className="Menu container mb-5">
 			<a name="menu" />
 			<h1>Sea Food</h1>
 			{seafood}
