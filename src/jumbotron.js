@@ -3,11 +3,17 @@ import React from "react";
 const Jumbotron = () => {
 	return (
 		<div>
-			<div class="bg" />
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<h1 class="display-3">Le Krusty Krab</h1>
-					<p class="lead">" The Krusty Krab! Come spend your money here! "</p>
+			<div className="bg" />
+			<div className="jumbotron jumbotron-fluid">
+				<div className="container">
+					<div className="col-md-12">
+						<h1 className="display-3" id="title">
+							The Krusty Krab
+						</h1>
+						<p className="lead" id="subtitle">
+							" The Krusty Krab! Come spend your money here! "
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
